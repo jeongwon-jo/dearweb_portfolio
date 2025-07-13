@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>은행나무 한의원</title>
+  <!-- Favicon -->
+  <link rel="icon" href="./img/common/favicon.ico">
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="은행나무 한의원" />
+  <meta property="og:description" content="은행나무 한의원" />
+  <meta property="og:image" content="./img/common/opengraph.png" />
+  <!-- jQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Custom CSS & JS -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/setting.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/sub.css">
+  <link rel="stylesheet" href="./css/attribute.css">
+  <script src="./js/common.js" defer></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__gnb">
+          <a href="./index.html" class="logo">
+            <img src="./img/common/logo.png" alt="지리산쌍계한의원">
+          </a>
+          <nav class="gnb">
+            <ul>
+              <li><a href="#">한의원 소개</a></li>
+              <li><a href="#">진료 과목</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">오시는 길</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__tel">
+          <h2>02-3462-1075</h2>
+        </div>
+        <button type="button" class="btn_mo_menu"></button>
+      </div>
+    </header>
+    <main class="main pt0">
+      <div class="home__inner">
+        <section class="home_banner">
+          <div id="mainSwiper" class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-color: #1B0E08;">
+                <div class="banner__wrap">
+                  <div class="banner-img">
+                    <img src="./img/main/main_banner_01.png" class="pc_show" alt="은행나무 한의원 배너">
+                    <img src="./img/main/mo_main_banner_01.png" class="mo_show" alt="은행나무 한의원 배너">
+                  </div>
+                  <div class="banner__contents">
+                    <div class="banner-text">
+                      <h1>진단부터 회복까지,<br>맞춤 한방 솔루션 제공</h1>
+                    </div>
+                    <div class="banner-btn">
+                      <a href="#" class="btn btn-md btn_link"><span>한의원 소개 바로가기</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="background-color: #1B0E08;">
+                <div class="banner__wrap">
+                  <div class="banner-img">
+                    <img src="./img/main/main_banner_01.png" class="pc_show" alt="은행나무 한의원 배너">
+                    <img src="./img/main/mo_main_banner_01.png" class="mo_show" alt="은행나무 한의원 배너">
+                  </div>
+                  <div class="banner__contents">
+                    <div class="banner-text">
+                      <h1>진단부터 회복까지,<br>맞춤 한방 솔루션 제공</h1>
+                    </div>
+                    <div class="banner-btn">
+                      <a href="#" class="btn btn-md btn_link"><span>한의원 소개 바로가기</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+        <section class="home_clinic">
+          <div class="container">
+            <div class="clinic__list">
+              <div class="clinic__item">
+                <div class="clinic_tit">
+                  <h3>맞춤 한방 솔루션</h3>
+                  <p>몸의 흐름을 읽으며 치료를 진행합니다.</p>
+                </div>
+                <div class="clinic_icon_btn">
+                  <div class="icon">
+                    <img src="./img/main/clinic_icon_01.png" alt="맞춤 한방 솔루션 아이콘" width="64">
+                  </div>
+                  <a href="./clinic1.html" class="btn btn-md btn_link"><span>바로가기</span></a>
+                </div>
+              </div>
+              <div class="clinic__item">
+                <div class="clinic_tit">
+                  <h3>은행나무 한약</h3>
+                  <p>진단부터 회복까지, 맞춤 한방 솔루션 제공</p>
+                </div>
+                <div class="clinic_icon_btn">
+                  <div class="icon">
+                    <img src="./img/main/clinic_icon_02.png" alt="은행나무 한약 아이콘" width="64">
+                  </div>
+                  <a href="./clinic2.html" class="btn btn-md btn_link"><span>바로가기</span></a>
+                </div>
+              </div>
+              <div class="clinic__item">
+                <div class="clinic_tit">
+                  <h3>순환 클리닉</h3>
+                  <p>기혈 회복 및 어혈 제거,<br>
+                  혈류 순환 개선 및 호르몬 밸런스 조절</p>
+                </div>
+                <div class="clinic_icon_btn">
+                  <div class="icon">
+                    <img src="./img/main/clinic_icon_03.png" alt="순환 클리닉 아이콘" width="64">
+                  </div>
+                  <a href="./clinic3.html" class="btn btn-md btn_link"><span>바로가기</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home_greeting">
+          <div class="greeting__inner">
+            <div class="bg">
+              <div class="img" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+                <img src="./img/main/greeting_bg.png" alt="은행나무 한의원">
+              </div>
+            </div>
+            <div class="greeting-text" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1200" data-aos-delay="500">
+              <p>
+                모든 몸은 다르고,<br class="mo_show"> 그만큼 한약도 달라야 합니다.<br>
+                은행나무한의원에서는 증상뿐 아니라<br class="mo_show">  몸의 흐름과 균형까지 살피며<br>
+                당신의 몸에 가장 잘 맞는,<br class="mo_show">  ‘진짜’ 한약을 만듭니다.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="home__info">
+          <div class="info__inner">
+            <div class="clinic__hour" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+              <div class="clinic_title">
+                <h3 class="title">진료시간</h3>
+              </div>
+              <ul class="info_list">
+                <li>
+                  <span class="info_tit">오전진료</span>
+                  <div class="info_cnts">
+                    <p>09:00 ~ 13:00</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="info_tit">오후진료</span>
+                  <div class="info_cnts">
+                    <p>14:00 ~ 18:00</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="info_tit">야간진료</span>
+                  <div class="info_cnts">
+                    <p>14:00 ~ 18:00</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="info_tit">공휴일</span>
+                  <div class="info_cnts">
+                    <p>09:00 ~ 14:30</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="info_tit">토요일 · 일요일</span>
+                  <div class="info_cnts">
+                    <p>14:00 ~ 18:00</p>
+                    <span class="info_txt">(토요일, 일요일, 공휴일은 휴게시간 없이 진료합니다.)</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="info_tit">휴게시간</span>
+                  <div class="info_cnts">
+                    <p>13:00 ~ 14:00</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="clinic__map" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+              <div class="clinic_title">
+                <h3 class="title">오시는 길</h3>
+                <p>주소 : 서울특별시 강남구 서초구 120-33 3층</p>
+              </div>
+              <div class="map_content">
+                <div class="map">
+                  <img src="./img/main/map.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="logo">
+          <img src="./img/common/footer_logo.png" alt="지리산쌍계한의원">
+        </div>
+        <div class="footer__info">
+          <div class="footer__company-info">
+            <ul class="company-info">
+              <li>
+                <span>주소</span>
+                <b>서울특별시 강남구 서초구 120-33 3층</b>
+              </li>
+            </ul>
+            <ul class="company-info">
+              <li class="pc_show">
+                <span>대표자</span>
+                <b>홍길동</b>
+              </li>
+              <li>
+                <span>사업자 등록번호</span>
+                <b>123-45-67890</b>
+              </li>
+              <li>
+                <span>대표번호</span>
+                <b>02-1234-1234</b>
+              </li>
+            </ul>
+          </div>
+          <p class="footer__copyright">Copyright ⓒ 2024 은행나무 한의원 All right reserved</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    var swiper = new Swiper("#mainSwiper", {
+      spaceBetween: 0,
+      slidesPerView: 1,
+      effect: "fade",
+      fadeEffect: { crossFade: true },
+      speed: 800,
+      centeredSlides: true,
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
